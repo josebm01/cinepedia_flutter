@@ -59,7 +59,7 @@ class _Slice extends StatelessWidget {
         BoxShadow(
           color: Colors.black45,
           blurRadius: 10,
-          offset: Offset(0, -10),
+          offset: Offset(0, 10),
         )
       ]
     ); 
@@ -68,7 +68,7 @@ class _Slice extends StatelessWidget {
       padding: const EdgeInsets.only( bottom: 30 ),
       child: DecoratedBox(
         decoration: decoration,
-        // border redondeados
+        //? widget para poner bordes redondeados
         child: ClipRRect(
           borderRadius: BorderRadius.circular(20),
           child: Image.network(
